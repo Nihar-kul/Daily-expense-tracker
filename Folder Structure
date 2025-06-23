@@ -1,0 +1,24 @@
+Folder structure
+daily-expense-tracker/
+├── client/                       # React Frontend
+│   ├── public/
+│   └── src/
+│       ├── assets/              # Images, logos
+│       ├── components/          # Reusable components (Nav, Footer, etc.)
+│       ├── pages/               # Login, Dashboard, Input, Summary
+│       ├── context/             # Auth context
+│       ├── services/            # Axios requests
+│       ├── utils/               # Helper functions
+│       ├── App.js
+│       └── index.js
+├── server/                       # Express Backend
+│   ├── config/                  # DB config
+│   ├── controllers/             # Route handlers
+│   ├── middlewares/            # Auth, error handlers
+│   ├── models/                 # Mongoose models
+│   ├── routes/                 # All routes (auth, expenses)
+│   ├── .env
+│   └── server.js
+├── .gitignore
+├── README.md
+└── package.json
