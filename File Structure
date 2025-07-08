@@ -1,0 +1,25 @@
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── Login.tsx              # Login page component with modern UI
+│   ├── Signup.tsx             # Signup page component with validation
+│   ├── Landing.tsx            # Dashboard landing page with navigation
+│   ├── ExpenseInput.tsx       # Expense input form with categories
+│   ├── Summary.tsx            # Expense summary and reports
+│   ├── CurrencySelector.tsx   # Currency selection component
+│   ├── ErrorBoundary.tsx      # Error boundary for graceful error handling
+│   ├── Loading.tsx            # Loading component
+│   └── Toast.tsx              # Toast notification component
+├── contexts/
+│   └── ToastContext.tsx       # Toast notification context
+├── types/
+│   └── index.ts               # TypeScript type definitions
+├── utils/
+│   └── currencyUtils.ts       # Currency utility functions
+├── App.tsx                    # Main app component with routing
+├── App.css                    # App-specific styles
+├── index.tsx                  # Application entry point
+├── index.css                  # Global styles
+└── theme.css                  # Theme-specific styles
